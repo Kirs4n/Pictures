@@ -18,8 +18,6 @@ namespace Картинки
             remainingPictures = 52 % 3;
             Console.WriteLine(inRow);
             Console.WriteLine(remainingPictures);
-
-
         }
     }
 }
