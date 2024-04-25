@@ -12,11 +12,11 @@ namespace Картинки
         {
             int pictures = 52;
             int picturesInRow = 3;
-            int inRow;
+            int rows;
             int remainingPictures;
-            inRow = 52 / 3;
-            remainingPictures = 52 % 3;
-            Console.WriteLine(inRow);
+            rows = pictures / picturesInRow;
+            remainingPictures = pictures % picturesInRow;
+            Console.WriteLine(rows);
             Console.WriteLine(remainingPictures);
         }
     }
